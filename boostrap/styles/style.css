@@ -11,3 +11,9 @@ body{
     background: #063970;
     color: white;
 }
+
+.text-align{
+    text-align: center;
+    padding-top: 20px;
+}
+

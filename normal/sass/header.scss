@@ -1,0 +1,27 @@
+@use 'variables' as *;
+
+header{
+    padding-top: 20px;
+    .container{
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        .header-card{
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+
+            h1{
+                font-size: 50px;
+            }
+        }
+
+        img{
+            height: auto;
+            width: 50%;
+        }
+
+    }
+    
+}

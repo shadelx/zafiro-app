@@ -1,0 +1,44 @@
+@use 'variables' as *;
+
+@use 'nav';
+@use 'media-queries';
+@use 'header';
+@use 'about';
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: $font-roboto;
+}
+ul{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn-main{
+    margin-top: 10px;
+    color: white;
+    background-color: #4c97b5;
+    font-weight: 600;
+    border: none;
+    border-radius: 3px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 17px;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 20px;
+  }
