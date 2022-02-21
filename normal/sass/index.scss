@@ -1,9 +1,6 @@
 @use 'variables' as *;
 
-@use 'nav';
-@use 'media-queries';
-@use 'header';
-@use 'about';
+
 
 
 *{
@@ -41,4 +38,10 @@ a {
     margin: 0 auto;
     overflow: auto;
     padding: 0 20px;
-  }
+}
+
+
+@use 'nav';
+@use 'media-queries';
+@use 'header';
+@use 'about';
