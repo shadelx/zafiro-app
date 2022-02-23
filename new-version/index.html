@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/utilities.css">
+    <link rel="stylesheet" href="styles/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
@@ -16,23 +16,25 @@
 <body>
 
     <!--navbar-->
-    <nav class="nav-bar">
-        <h1 class="logo">zafiro</h1>
+    <nav class="nav-bar flex">
+        <a href="" class="logo">zafiro</a>
 
-        <ul>
+        <ul class="flex">
             <li><a href="#">why us</a></li>
             <li><a href="#">features</a></li>
             <li><a href="#">demo</a></li>
         </ul>
 
-        <a href="#">login in</a>
-        <button class="btn-main btn">start demo</button>
-
+        <div class="login-signup">
+            <a href="#">login in</a>
+            <button class="btn-main btn">start demo</button>
+        </div>
+        
     </nav>
 
     <!--hero-section-->
-    <header class="header" id="header">
-        <div class="hero-section container">
+    <header class="header container" id="header">
+        <div class="hero-section ">
             <h2>Better management utility for your vet </h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus nam corporis alias.</p>
             <button class="btn-call btn">start using now</button>
@@ -41,20 +43,21 @@
 
     <!--why-us-->
     <section class="why-us container flex" id="why-us">
+        <h2>why us? now you'll know</h2>
         <div class="item-info">
-            <img src="img/monitoring-img.jpg" alt="monitoring">
+            <img src="img/monitoring-img.jpg" alt="monitoring-img">
             <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, sunt.</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nostrum, mollitia dolorem autem voluptatem in!</p>
         </div>
 
         <div class="item-info2">
-            <img src="img/productivity-img.jpg" alt="img info">
+            <img src="img/productivity-img.jpg" alt="productivity-img">
             <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, sunt.</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nostrum, mollitia dolorem autem voluptatem in!</p>
         </div>
         
         <div class="item-info3">
-            <img src="" alt="img info">
+            <img src="img/register-img.jpg" alt="img info">
             <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, sunt.</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nostrum, mollitia dolorem autem voluptatem in!</p>
         </div>
@@ -66,19 +69,19 @@
         <h2>We optimize your performance</h2>
         <div class="table-items">
             <div class="item">
-                <img src="" alt="">
+                <img src="img/data.svg" alt="">
                 <h2>Lorem ipsum dolor sit.</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, veritatis. Exercitationem ad ullam quos? Ut?</p>
             </div>
 
             <div class="item">
-                <img src="" alt="">
+                <img src="img/notification.svg" alt="">
                 <h2>Lorem ipsum dolor sit.</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, veritatis. Exercitationem ad ullam quos? Ut?</p>
             </div>
 
             <div class="item">
-                <img src="" alt="">
+                <img src="img/interface.svg" alt="">
                 <h2>Lorem ipsum dolor sit.</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, veritatis. Exercitationem ad ullam quos? Ut?</p>
             </div>

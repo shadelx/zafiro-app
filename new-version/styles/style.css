@@ -21,3 +21,34 @@ a{
 img{
     width: 100%;
 }
+
+/*nav bar*/
+
+.nav-bar{
+    width: 100%;
+    justify-content: space-between;
+    height: auto;
+    text-transform: uppercase;
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-bar .ul {
+    justify-content: space-between;
+}
+.nav-bar li{
+    padding: 14px 18px;
+}
+
+.login-signup a{
+    padding: 14px 18px;
+    margin-right: 4px;
+}
+
+.header {
+    padding-top: 155px;
+    height: 750px;
+    background-image: url(/new-version/img/hero-img.jpg);
+}
