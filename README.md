@@ -1,4 +1,4 @@
-# this is a simple repo for zafiro app
+# this is a simple repo for zafiro web app and appi
 
 useful commands
 
