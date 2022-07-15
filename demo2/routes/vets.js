@@ -25,7 +25,7 @@ router.put('/:id', permission('admin'), async (req, res) => {
   const { body, params: { id } } = req;
   const vet = await sequelize.models.vets.findByPk(id);
   if (!vet) {
-    return res.status(404).json({ code: 404, message: 'Product not found' });
+    return res.status(404).json({ code: 404, message: 'Vets not found' });
   }
   const updatedProduct = await vet.update({
     name: body.name,
@@ -39,7 +39,7 @@ router.delete('/:id', permission('admin'), async (req, res) => {
   const { params: { id } } = req;
   const vet = await sequelize.models.vets.findByPk(id);
   if (!vet) {
-    return res.status(404).json({ code: 404, message: 'Product not found' });
+    return res.status(404).json({ code: 404, message: 'Vets not found' });
   }
   await vet.destroy();
   return res.json();
