@@ -1,6 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+:root{
+  --main-color:#1b264f;
+  --second-color:#274690;
+  --third-color:#302B27;
+  --text-color:#F5F3F5;
+  --h1-text: 8em;
+  --h2-text: 5em;
+  --h3-text: 3em;
+  --h4-text: 2rem;
+  --p-text: 1rem;
+}
 
 html,
 body {
