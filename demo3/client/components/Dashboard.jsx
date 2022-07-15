@@ -3,22 +3,8 @@ import React from 'react'
 
 import { useState, useEffect } from 'react'
 
-const Dashboard = ({onClick}) => {
-  const [showInfo, setInfo] =useState(false);
-
-  const fetchTodo = async(id) =>{
-    const res = await fetch('https://jsonplaceholder.typicode.com/todos/1')
-    const data = await res.json()
-    return data
-  }
-
-  useEffect(() => { 
-    const getTodos = async() =>{
-      const todoFromServer = await fetchTodo()
-      setInfo(todoFromServer)
-    }
-    getTodos()
-  },[])
+const Dashboard = () => {
+  
 
   return (
     <div className='flex mx-auto'>
