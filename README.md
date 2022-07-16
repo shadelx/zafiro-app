@@ -1,9 +1,28 @@
-## Este es un repo para la aplicacion Zafiro
+# Zafiro APP 1.0 :rocket:
 
-La aplicacion zafiro es una plataforma en donde habra un registro de las mascotas por partes de las veterinarias hacia los duenos, para que tengan un registro medico puedan se compartidos con otras veterinarias
+El proyecto zafiro es una aplicacion de manejo de registros medicos de mascotas para veterinarias y duenos, alguna de las funcionalidades principales son las siguientes
 
-en este repo tenemos dos demos.
--demo1: front ent basico 
--demo2: api!
+* Registro de mascotas
+* Crear reportes medicos
+* Analisis de datos 
+* levantar tickets
 
-Porfavor checar el demo2 para este proyecto
+## tecnologias
+
+Tecnologias usadas"
+- Next JS
+- Bycrypt
+- MariaDB
+- React JS
+- Tailwind CSS
+- Sequelize
+- Express
+- Jsonwebtoken
+- Cors
+- Helmet
+
+## Arrancar Aplicacion
+
+Usa el siguiente comando para arrancar la aplicacion
+
+```npm run dev```

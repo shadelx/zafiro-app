@@ -1,11 +1,7 @@
 import React from 'react'
 
-
-import { useState, useEffect } from 'react'
-
 const Dashboard = () => {
   
-
   return (
     <div className='flex mx-auto'>
         <aside className="w-64" aria-label="Sidebar">
